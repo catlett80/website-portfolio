@@ -7,6 +7,7 @@ Primary Color (Tan): #C09F80;
 Secondary Color (Blackboard): #565656;
  */
 
+
  :root{
    --primary-color: #357b70;
    --secondary-color: #D2B48C;
@@ -17,6 +18,7 @@ Secondary Color (Blackboard): #565656;
    --font-size: 24px;
    --text-align: center;
  }
+
 
  a{
    color: #357b70;
