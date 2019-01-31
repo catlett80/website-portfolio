@@ -1,6 +1,4 @@
-/*
-Colors used
-
+/*Colors used
 Background color (light Gray):#cbd1db;
 Text Color (Dark Gray): #2b2b2b;
 Primary Color (Tan): #C09F80;
@@ -9,7 +7,7 @@ Secondary Color (Blackboard): #565656;
 
 
 
-
+<!DOCTYPE html>
 
  :root{
    --primary-color: #357b70;
@@ -20,10 +18,6 @@ Secondary Color (Blackboard): #565656;
    --color: #2b2b2b;
    --font-size: 24px;
    --text-align: center;
- }
-
- a{
-   color: var(--primary-color);
  }
 
 
@@ -37,14 +31,12 @@ body {
   font-weight: $font-weight;
   background-color: $background-color;
   line-height: normal;
-
 }
 
 /* Hello World (index page)*/
 h1{
   color: $color;
   text-align: $text-align;
-  padding-bottom:
 
 }
 
@@ -190,7 +182,7 @@ div#address{
 }
 
 img{
-  border-radius:;
+  border-radius:50%;
   width: 3%;
   height: auto;
 }
@@ -277,12 +269,12 @@ hr {
 @keyframes color-change {
   0% {
     fill: #edc655;
-  }
+}
   50% {
     fill: #fcffad;
-  }
+}
   100% {
-    fill: #f76414;
+column-fill: #f76414;
   }
 }
 
