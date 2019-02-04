@@ -81,6 +81,7 @@ table{
   float: none;
   line-height: normal;
   border-style: solid;
+  margin: 0 auto;
 }
 
 /* Twitter, LinkedIn, skype (all pages)*/
@@ -342,4 +343,9 @@ hr {
 h1 {
   font-size: 24px;
   text-align: center;
+}
+
+.center{
+  text-align: center;
+  margin: 0 auto;
 }
